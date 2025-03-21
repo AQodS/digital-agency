@@ -1,4 +1,5 @@
 "use client";
+import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -11,10 +12,10 @@ import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
-import { cloneElement, useEffect, useState } from "react";
 import { CardMedia, useColorScheme, useScrollTrigger } from "@mui/material";
-import Link from "next/link";
 import ToggleThemeButton from "./ToggleThemeButton";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface Props {
   /**
@@ -37,7 +38,7 @@ function ElevationScroll(props: Props) {
   });
 
   return children
-    ? cloneElement(children, {
+    ? React.cloneElement(children, {
         elevation: trigger ? 4 : 0,
       })
     : null;
@@ -45,53 +46,90 @@ function ElevationScroll(props: Props) {
 
 const drawerWidth = 240;
 const navItems = [
-  { title: "Home", url: "/" },
-  { title: "Services", url: "#services" },
-  { title: "Portofolio", url: "#portofolio" },
-  { title: "Features", url: "#features" },
-  { title: "Team", url: "#team" },
-  { title: "Contact Us", url: "#contact" },
+  {
+    title: "Home",
+    url: "/",
+  },
+  {
+    title: "Services",
+    url: "#services",
+  },
+  {
+    title: "Portfolio",
+    url: "#portfolio",
+  },
+  {
+    title: "Features",
+    url: "#features",
+  },
+  {
+    title: "Team",
+    url: "#team",
+  },
+  {
+    title: "Contact Us",
+    url: "#contact",
+  },
 ];
 
-export default function AppNavbar(props: Props) {
-  // const { window } = props;
-  const [mobileOpen, setMobileOpen] = useState(false);
-
-  const [isScrolled, setIsScrolled] = useState(false);
+export default function DrawerAppBar(props: Props) {
+  const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const { mode } = useColorScheme();
+
+  const pathname = usePathname();
+  const [hash, setHash] = React.useState("/");
+
+  console.log(pathname, hash);
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
 
-  // const containers = window !== undefined ? () => window.document.body : undefined;
+  React.useEffect(() => {
+    const handleHashChange = () => {
+      console.log("Hash value ", window.location.hash);
+      const val = window.location.hash;
+      setHash(!val ? "/" : val); // Extract the hash part
+    };
 
-  useEffect(()=>{
-    const handleScroll = () => {
-      setIsScrolled(window?.scrollY > 50);
-    }
-    window.addEventListener("scroll", handleScroll);
+    handleHashChange(); // Set initial hash
+    // window.addEventListener("hashchange", handleHashChange); // Listen for hash changes
+    window.addEventListener("scroll", handleHashChange); // Listen for hash changes
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    }
-  },[])
+      window.removeEventListener("scroll", handleHashChange); // Cleanup
+    };
+  }, []);
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Box sx={{ my: 2 }}>
         <CardMedia
           sx={{ width: "100%" }}
-          component={"img"}
-          height={"100%"}
+          component="img"
+          height="100%"
           image={mode === "light" ? "/black_logo.svg" : "/white_logo.svg"}
+          alt="logo"
         />
       </Box>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item.title} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
+            <ListItemButton
+              LinkComponent={Link}
+              href={item.url}
+              sx={[
+                (theme) => ({
+                  ...(item.url === hash
+                    ? {
+                        color: theme.vars.palette.warning.light,
+                        borderBottom: `2px solid ${theme.vars.palette.warning.light}`,
+                      }
+                    : {}),
+                }),
+              ]}
+            >
               <ListItemText primary={item.title} />
             </ListItemButton>
           </ListItem>
@@ -100,17 +138,31 @@ export default function AppNavbar(props: Props) {
     </Box>
   );
 
-  const container =
-    window !== undefined ? () => window.document.body : undefined;
+  const [isScrolled, setIsScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window?.scrollY > 50); // Change when scrolling past 50px
+    };
+
+    window?.addEventListener("scroll", handleScroll);
+    return () => window?.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // const { window } = props;
+
+  const container = () => window?.document.body;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box>
       <ElevationScroll {...props}>
-        <AppBar component="nav" sx={{
-          transition: "all 0.3s ease-in-out",
-          backgroundColor: isScrolled ? "primary.main" : "transparent",
-          boxShadow: isScrolled ? 2 : "none"
-        }}>
+        <AppBar
+          sx={{
+            backgroundColor: isScrolled ? "primary.main" : "transparent",
+            boxShadow: isScrolled ? 2 : "none",
+            transition: "0.3s ease-in-out",
+          }}
+        >
           <Toolbar>
             <IconButton
               color="inherit"
@@ -121,26 +173,38 @@ export default function AppNavbar(props: Props) {
             >
               <MenuIcon />
             </IconButton>
-            <Box
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
-            >
+            <Box sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
               <CardMedia
                 sx={{ width: 300 }}
-                component={"img"}
-                height={"100%"}
-                image={"/white_logo.svg"}
+                component="img"
+                height="100%"
+                image="/white_logo.svg"
+                alt="logo"
               />
             </Box>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               {navItems.map((item) => (
                 <Button
-                  disableElevation
-                  disableFocusRipple
-                  disableRipple
-                  disableTouchRipple
+                  size="large"
                   key={item.title}
-                  sx={{ color: "#fff" }}
+                  color="inherit"
+                  disableRipple
+                  disableFocusRipple
+                  disableTouchRipple
+                  sx={[
+                    (theme) => ({
+                      // color: "#fff",
+                      fontWeight: 800,
+                      fontSize: "1.2rem",
+                      borderRadius: 0,
+                      ...(item.url === hash
+                        ? {
+                            color: theme.vars.palette.warning.light,
+                            borderBottom: `2px solid ${theme.vars.palette.warning.light}`,
+                          }
+                        : {}),
+                    }),
+                  ]}
                   LinkComponent={Link}
                   href={item.url}
                 >
