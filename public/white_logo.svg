@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72.77018mm"
+   height="13.637085mm"
+   viewBox="0 0 72.77018 13.637085"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6788"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6786" />
+    </linearGradient>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB"
+       id="filter4245"
+       x="-0.074608684"
+       y="-0.074608684"
+       width="1.1643817"
+       height="1.1643817">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur4239" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset4241" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite4243" />
+    </filter>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB"
+       id="filter4498"
+       x="-0.053610705"
+       y="-0.050658334"
+       width="1.1276819"
+       height="1.1206504">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur4492" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset4494" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite4496" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-123.23043,984.67026)">
+    <g
+       id="g8591">
+      <g
+         id="g7115"
+         transform="matrix(0.09935267,0,0,0.09935267,122.79875,-895.0783)">
+        <g
+           id="g7023"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7015"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7017"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7021"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7019"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7033"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7025"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7027"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7031"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7029"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7043"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7035"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7037"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7041"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7039"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7053"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7045"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7047"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7051"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7049"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7063"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7055"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7057"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7061"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7059"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7073"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7065"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7067"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7071"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7069"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7083"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7075"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7077"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7081"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7079"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7093"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7085"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7087"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7091"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7089"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7103"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7095"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7097"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7101"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7099"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+        <g
+           id="g7113"
+           transform="matrix(0.35752032,0,0,0.35752032,137.7706,-535.71718)">
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+             id="circle7105"
+             r="164.86017"
+             cy="-834.36865"
+             cx="-183.73727" />
+          <circle
+             style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1"
+             id="circle7107"
+             r="164.86017"
+             cy="-831.85175"
+             cx="-182.47879" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+             x="-325.88382"
+             y="-697.01111"
+             id="text7111"
+             transform="matrix(0.94702656,0,0,0.96896213,-11.154704,-32.538061)"><tspan
+               sodipodi:role="line"
+               id="tspan7109"
+               style="fill:none;stroke-width:7.00207;stroke-dasharray:none"
+               x="-325.88382"
+               y="-697.01111">D</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.06445px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.317498;stroke-dasharray:none;stroke-opacity:1"
+         x="138.56773"
+         y="-974.24866"
+         id="text7256"><tspan
+           sodipodi:role="line"
+           id="tspan7254"
+           style="stroke-width:0.317498"
+           x="138.56773"
+           y="-974.24866">DIGiAGENCY</tspan></text>
+    </g>
+  </g>
+</svg>

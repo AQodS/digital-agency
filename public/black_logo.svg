@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72.351753mm"
+   height="13.665161mm"
+   viewBox="0 0 72.351753 13.665161"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="digiagency_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.2646927"
+     inkscape:cx="655.49521"
+     inkscape:cy="-3669.6662"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="-0.21636576,-7.1856239"
+       orientation="1,0"
+       id="guide9546"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="73.006293,3.693276"
+       orientation="1,0"
+       id="guide9548"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6788"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6786" />
+    </linearGradient>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB"
+       id="filter4245"
+       x="-0.074608684"
+       y="-0.074608684"
+       width="1.1643817"
+       height="1.1643817">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur4239" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset4241" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite4243" />
+    </filter>
+    <filter
+       inkscape:label="In and Out"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Inner colorized shadow, outer black shadow"
+       style="color-interpolation-filters:sRGB"
+       id="filter4498"
+       x="-0.053610705"
+       y="-0.050658334"
+       width="1.1276819"
+       height="1.1206504">
+      <feGaussianBlur
+         result="result0"
+         in="SourceAlpha"
+         stdDeviation="4"
+         id="feGaussianBlur4492" />
+      <feOffset
+         dx="5"
+         dy="5"
+         result="result4"
+         id="feOffset4494" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result4"
+         operator="xor"
+         result="result3"
+         id="feComposite4496" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-123.02124,1036.5537)">
+    <g
+       id="g11448">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.06445px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.317498;stroke-dasharray:none;stroke-opacity:0"
+         x="137.94011"
+         y="-1025.5045"
+         id="text10558"><tspan
+           sodipodi:role="line"
+           id="tspan10556"
+           style="fill:#4d4d4d;stroke:#000000;stroke-width:0.317498;stroke-opacity:0"
+           x="137.94011"
+           y="-1025.5045">DIGiAGENCY</tspan></text>
+      <g
+         id="g11407">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text9325"
+           transform="matrix(0.03363895,0,0,0.03441812,135.53881,-1001.8427)"><tspan
+             sodipodi:role="line"
+             id="tspan9323"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10482"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10484"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10488"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10486"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10490"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10492"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10496"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10494"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10498"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10500"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10504"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10502"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10506"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10508"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10512"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10510"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10514"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10516"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10520"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10518"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10522"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10524"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10528"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10526"
+             style="fill:none;stroke:#ffffff;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10530"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10532"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10538"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10540"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10542"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1867)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:1"
+           id="circle10544"
+           r="5.8559322"
+           cy="-1029.7346"
+           cx="129.79565" />
+        <circle
+           style="opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:30;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4245)"
+           id="circle10546"
+           r="164.86017"
+           cy="-834.36865"
+           cx="-183.73727"
+           transform="matrix(0.0355206,0,0,0.0355206,136.27743,-1000.1586)" />
+        <circle
+           style="opacity:0.91;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06562;stroke-dasharray:none;stroke-opacity:0.945392"
+           id="circle10548"
+           r="5.8559322"
+           cy="-1029.7776"
+           cx="129.8027" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:355.705px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.91;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4498)"
+           x="-325.88382"
+           y="-697.01111"
+           id="text10536"
+           transform="matrix(0.03363895,0,0,0.03441812,135.88121,-1001.3425)"><tspan
+             sodipodi:role="line"
+             id="tspan10534"
+             style="fill:none;stroke:#000000;stroke-width:7.00207;stroke-dasharray:none;stroke-opacity:1"
+             x="-325.88382"
+             y="-697.01111">D</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
