@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
+import { ReactNode } from "react";
 import "./globals.css";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import AppThemeContext from "@/contexts/AppThemeContext";
 import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
-import AppThemeProvider from "@/contexts/AppThemeContext";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "react-photo-view/dist/react-photo-view.css";
 
 export const metadata: Metadata = {
   title: "Digiagency",
@@ -16,16 +20,16 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
       <body>
         <InitColorSchemeScript attribute="class" />
         <AppRouterCacheProvider>
-          <AppThemeProvider>
+          <AppThemeContext>
             {children}
-          </AppThemeProvider>
+          </AppThemeContext>
         </AppRouterCacheProvider>
       </body>
     </html>

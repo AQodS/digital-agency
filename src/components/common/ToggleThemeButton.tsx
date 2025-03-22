@@ -2,7 +2,7 @@
 import { useColorScheme } from "@mui/material";
 import { Fragment} from "react";
 
-const ToggleThemeButton = () => {
+export const ToggleThemeButton = () => {
   const { mode, setMode } = useColorScheme();
   return (
     <Fragment>
@@ -16,4 +16,3 @@ const ToggleThemeButton = () => {
   );
 };
 
-export default ToggleThemeButton;

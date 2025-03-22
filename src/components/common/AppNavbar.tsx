@@ -1,5 +1,5 @@
 "use client";
-import * as React from "react";
+import { cloneElement, useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -13,7 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import { CardMedia, useColorScheme, useScrollTrigger } from "@mui/material";
-import ToggleThemeButton from "./ToggleThemeButton";
+import { ToggleThemeButton } from "./ToggleThemeButton";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -38,7 +38,7 @@ function ElevationScroll(props: Props) {
   });
 
   return children
-    ? React.cloneElement(children, {
+    ? cloneElement(children, {
         elevation: trigger ? 4 : 0,
       })
     : null;
@@ -72,13 +72,13 @@ const navItems = [
   },
 ];
 
-export default function DrawerAppBar(props: Props) {
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+export default function AppNavbar(props: Props) {
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   const { mode } = useColorScheme();
 
   const pathname = usePathname();
-  const [hash, setHash] = React.useState("/");
+  const [hash, setHash] = useState("/");
 
   console.log(pathname, hash);
 
@@ -86,7 +86,7 @@ export default function DrawerAppBar(props: Props) {
     setMobileOpen((prevState) => !prevState);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleHashChange = () => {
       console.log("Hash value ", window.location.hash);
       const val = window.location.hash;
@@ -138,9 +138,9 @@ export default function DrawerAppBar(props: Props) {
     </Box>
   );
 
-  const [isScrolled, setIsScrolled] = React.useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window?.scrollY > 50); // Change when scrolling past 50px
     };

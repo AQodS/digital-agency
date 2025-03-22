@@ -18,13 +18,18 @@
     "@mui/material-nextjs": "^6.4.3",
     "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "^19.0.0",
+    "react-photo-view": "^1.2.7",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-slick": "^0.23.13",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "typescript": "^5"
